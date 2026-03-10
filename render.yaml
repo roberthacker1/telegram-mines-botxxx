@@ -1,0 +1,13 @@
+services:
+  - type: worker
+    name: telegram-mines-bot
+    runtime: python
+    repo: https://github.com/roberthacker1/telegram-mines-bot
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 8588524506:AAF44_0hhiKTf0zwSwfJdD2wWLzKvRwrQAc
+      - key: CHANNEL_ID
+        value: -1003727406190
