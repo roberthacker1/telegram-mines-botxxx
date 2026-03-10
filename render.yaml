@@ -11,3 +11,5 @@ services:
         value: 8588524506:AAF44_0hhiKTf0zwSwfJdD2wWLzKvRwrQAc
       - key: CHANNEL_ID
         value: -1003727406190
+      - key: PYTHON_VERSION
+        value: 3.11.9
